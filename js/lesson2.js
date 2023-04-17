@@ -109,11 +109,11 @@
 //Зробіть сервіс який отримує тризначне число
 //Поверніть користувачу сумму цих чисел
 
-let sum;
-const number = prompt('Введіть тризначне число');
-if (number.length == 3) {
-    sum = +number[0] + +number[1] + +number[2];
-    alert(sum);
-} else {
-    alert('не правильно введене число');
-};
+// let sum;
+// const number = prompt('Введіть тризначне число');
+// if (number.length == 3) {
+//     sum = +number[0] + +number[1] + +number[2];
+//     alert(sum);
+// } else {
+//     alert('не правильно введене число');
+// };
