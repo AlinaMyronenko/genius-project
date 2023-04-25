@@ -8,10 +8,11 @@
 // }
 // }
 
-let checkAge2 = (age) =>{
-    return age > 18 ? true : confirm('Батьки дозволили?'); 
-};
-console.log(checkAge2(52))
+// let checkAge2 = (age) =>{
+//     return age > 18 ? true : confirm('Батьки дозволили?'); 
+// };
+
+
 // ---2---
 // Напишіть функцію min(a, b), яка повертає менше з двох чисел a та b.
   
