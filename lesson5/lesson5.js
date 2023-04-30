@@ -53,24 +53,24 @@
 // 2) cherry 58, 1,3
 // 3) jrange 89. 3,4
 
-const shop = [
-    { name: 'banana', price: 30 },
-    { name: 'cherry', price: 58 },
-    { name: 'orange', price: 89 }
-]
+// const shop = [
+//     { name: 'banana', price: 30 },
+//     { name: 'cherry', price: 58 },
+//     { name: 'orange', price: 89 }
+// ]
 
-const shoping = function (amount) {
-    let cost = this.price * amount;
-    return console.log(`Вартість ${this.name} буде складати ${cost}!`);
-}
-
-
-document.querySelector("#ban").addEventListener('click', shoping.bind(shop[0], 4));
-document.querySelector("#che").addEventListener("click", shoping.bind(shop[1], 1));
-document.querySelector("#ora").addEventListener("click", shoping.bind(shop[2], 3));
+// const shoping = function (amount) {
+//     let cost = this.price * amount;
+//     return console.log(`Вартість ${this.name} буде складати ${cost}!`);
+// }
 
 
+// document.querySelector("#ban").addEventListener('click', shoping.bind(shop[0], 4));
+// document.querySelector("#che").addEventListener("click", shoping.bind(shop[1], 1));
+// document.querySelector("#ora").addEventListener("click", shoping.bind(shop[2], 3));
 
-shoping.call(shop[0], 5);
-shoping.apply(shop[1], [3]);
-shoping.bind(shop[2], 4)();
+
+
+// shoping.call(shop[0], 5);
+// shoping.apply(shop[1], [3]);
+// shoping.bind(shop[2], 4)();
