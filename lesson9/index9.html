@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
+    <div class="buttonBlok">
+      <!-- Напишіть такий JavaScript, щоб після натискання на кнопку button, елемент
+<div id="text"> зникав. -->
+      <input class="buttonItem" type="button" id="btn" value="Фокус" />
+      <div id="text">Hello!</div>
+      <!-- -----2----
+Напишіть такий код, щоб після натискання на кнопку, вона зникала. -->
+      <input
+        class="buttonItem"
+        type="button"
+        onclick="this.hidden=true"
+        value="Зникну"
+      />
+    </div>
+    <!-- -----3----
+Створіть дерево, яке показує/приховує дочірні вузли при кліці   -->
+    <div class="treeBlok">
+      <ul class="tree" id="tree">
+        <li>
+          DOM. Події.
+          <ul>
+            <li>
+              DOM
+              <ul>
+                <li>DOM</li>
+                <li>Навігація по DOM</li>
+                <li>Властивості</li>
+                <li>Робота з DOM- вузлами</li>
+              </ul>
+            </li>
+            <li>
+              Події.
+              <ul>
+                <li>Події</li>
+                <li>Форми</li>
+                <li>event propagation</li>
+                <li>Drag'n'Drop</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <script src="./script9.js"></script>
+  </body>
+</html>
