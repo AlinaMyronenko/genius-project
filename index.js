@@ -3,6 +3,6 @@
 
 // console.log(isEmail('foo@bar.com'));
 
-var moment = require('moment');
+// var moment = require('moment');
 
-console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
+// console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
